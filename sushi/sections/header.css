@@ -1,0 +1,93 @@
+ul.header__menu li {
+    list-style: none;
+    }
+
+.header__menu a{
+        text-decoration: none;
+}
+
+.header__nav{
+    display: flex;
+    overflow: hidden;
+}
+
+.header__logo {
+    flex: 1;
+    display: flex;
+    position: relative;
+    padding: 20px;
+    z-index: 2;
+    padding-left: 30px;
+    margin: 0;
+
+}
+
+ .header__logo-overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    background-color: rgb(145, 36, 58);
+    z-index: 1;
+    
+}
+
+.header__logo h4{
+    padding-left: 30px;
+    color: #fff;
+    margin: 0;
+    z-index: 2;
+}
+
+.header__menu, .header__menu-mobile{
+    padding: 20px;
+    flex: 1.2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 64px;
+} 
+
+.header__menu li{
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: crimson;
+    font-size: 16px;
+    text-transform: capitalize;
+    line-height: 20px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+h2{
+    color: #fff;
+    font-size:xxx-large;
+}
+
+.header_nav{
+    display: flex;
+    align-items: center;
+    text-align-last: right;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: crimson;
+    color: burlywood;
+}
+
+.search_icon{
+    width: 24px;
+    height: 24px;
+    fill: burlywood;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header__menu li a{
+    color: aliceblue;
+}
+
+.header__menu img{
+    color: aliceblue;
+}
